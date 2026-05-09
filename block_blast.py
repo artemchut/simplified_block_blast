@@ -4,6 +4,21 @@ import sys
 import random
 import time
 
+
+"""--------------------------------------------
+   | DRAG THE PIECE WITH YOUR LMC AND DROP IT |
+   |    WHEREVER YOU WANT WITHIN THE GRID     |
+   --------------------------------------------
+"""
+
+print("""   --------------------------------------------
+   | DRAG THE PIECE WITH YOUR LMC AND DROP IT |
+   |    WHEREVER YOU WANT WITHIN THE GRID     |
+   --------------------------------------------
+""")
+
+
+
 pygame.init()
 pygame.font.init()
 screen = pygame.display.set_mode((960,640))
